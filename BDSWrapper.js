@@ -68,7 +68,7 @@ app.post('/command', (req, res) => {
         return;
     }
 	
-    let command = JSON.stringify(req.body); // Stringify body to test for bed requests
+    let command = JSON.stringify(req.body); // Stringify body to test for bad requests
 
     if (!command || command === "{}") {
         console.error('No command received.\n');
