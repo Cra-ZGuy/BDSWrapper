@@ -1,0 +1,15 @@
+{
+  "name": "bdswrapper",
+  "version": "1.0.0",
+  "description": "A wrapper for Minecraft Bedrock Edition server with HTTP control",
+  "main": "BDSWrapper.js",
+  "scripts": {
+    "start": "node BDSWrapper.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1"
+  },
+  "author": "Cra-ZGuy",
+  "license": "MIT"
+}
